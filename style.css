@@ -57,3 +57,13 @@
     color: white;
     font-size: 12px;
 }
+
+.section4 {
+    margin: 6%;
+}
+
+.section4 .heading2 {
+    position: absolute;
+    right: 53%;
+    top: 190%;
+}
