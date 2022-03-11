@@ -59,7 +59,7 @@
 }
 
 .section4 {
-    margin: 6%;
+    margin: 6%
 }
 
 .section4 .heading2 {
@@ -78,4 +78,8 @@
 
 .section4 .productM {
     display: none;
+}
+
+.section5 h3 {
+    text-align: center;
 }
