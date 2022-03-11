@@ -12,7 +12,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 50%;
-    position: fixed;
+    position: relative;
 }
 
 /* logo */
@@ -43,3 +43,9 @@
     animation: both 5s;
 } */
 
+/* section2 */
+.section2 {
+    color: black;
+    text-align: center;
+    margin: 3%;
+}
