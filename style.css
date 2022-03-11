@@ -30,3 +30,16 @@
     right: 30%;
     font-size: 10px;
 }
+
+/* mouseClick */
+.mouseClick {
+    position: absolute;
+    top: 93%;
+    right: 47%;
+}
+
+/* animation */
+/* .mouseClick{
+    animation: both 5s;
+} */
+
