@@ -13,3 +13,9 @@
     padding-top: 50%;
     position: fixed;
 }
+
+.logo img {
+    position: absolute;
+    top: 25vh;
+    right: 48%;
+}
