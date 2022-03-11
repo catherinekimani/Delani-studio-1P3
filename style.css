@@ -67,3 +67,15 @@
     right: 53%;
     top: 190%;
 }
+
+.section4 .design {
+    display: none;
+}
+
+.section4 .development {
+    display: none;
+}
+
+.section4 .productM {
+    display: none;
+}
