@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* section1 */
 .section1{
     background-image: url(images/backgrounds/h_img.jpg);
     background-position: center;
@@ -14,8 +15,18 @@
     position: fixed;
 }
 
+/* logo */
 .logo img {
     position: absolute;
     top: 25vh;
     right: 48%;
+}
+
+/* heading */
+.heading {
+    color: white;
+    position: absolute;
+    top: 46vh;
+    right: 30%;
+    font-size: 10px;
 }
