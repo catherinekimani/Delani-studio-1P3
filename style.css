@@ -9,7 +9,7 @@ html {
     scroll-behavior: smooth;
 }
 /* section1 */
-.section1{
+#section1{
     background-image: url(images/backgrounds/h_img.jpg);
     background-position: center;
     background-size: cover;
@@ -41,20 +41,15 @@ html {
     right: 47%;
 }
 
-/* animation */
-/* .mouseClick{
-    animation: both 5s;
-} */
-
 /* section2 */
-.section2 {
+#section2 {
     color: black;
     text-align: center;
     margin: 3%;
 }
 
 /* section3 */
-.section3 {
+#section3 {
     text-align: center;
     position: absolute;
     top: 155%;
@@ -64,25 +59,25 @@ html {
 
 
 /* section4 */
-.section4 {
+#section4 {
     margin: 6%
 }
 
-.section4 .heading2 {
+#section4 .heading2 {
     position: absolute;
     right: 43%;
     top: 190%;
 }
 
-.section4 .design {
+#section4 .design {
     display: none;
 }
 
-.section4 .development {
+#section4 .development {
     display: none;
 }
 
-.section4 .productM {
+#section4 .productM {
     display: none;
 }
 
@@ -100,15 +95,50 @@ html {
 }
 
 /* section5 */
-.section5 h3 {
-    text-align: center;
+#container1{
+    display: flex;
 }
 
-/* section6 */
-.contact {
-    text-align: center;
+#div4, #div3, #div2, #div1 {
+    border: 4px solid white;
+    height: 200px;
+    width: 200px;
+    margin-left: 10%;
+    margin-top: -70%;
+    display: none;
+    z-index: 2;
 }
 
+
+#p4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+#container2{
+    display: flex;
+}
+
+#div5,#div6,#div7,#div8 {
+    border: 4px solid white;
+    height: 200px;
+    width: 200px;
+    margin-left: 10%;
+    margin-top: -70%;
+    display: none;
+    z-index: 2;
+}
+
+/* contact */
+#contact{
+    background-image: url(images/backgrounds/c_image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    margin: 5%;
+}
 /* section7 */
 .footer {
     text-align: center;
