@@ -36,4 +36,4 @@ $(document).ready(function(){
             $(".product-image").slideDown(1000);
         })
     })
-})
+});

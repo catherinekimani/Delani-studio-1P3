@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 /* section1 */
 .section1{
     background-image: url(images/backgrounds/h_img.jpg);
@@ -67,8 +70,8 @@
 
 .section4 .heading2 {
     position: absolute;
-    right: 53%;
-    top: 195%;
+    right: 43%;
+    top: 190%;
 }
 
 .section4 .design {
@@ -83,22 +86,27 @@
     display: none;
 }
 
+
+.design-image {
+    text-align: center;
+}
+
+.dev-image {
+    text-align: center;
+}
+
+.product-image {
+    text-align: center;
+}
+
 /* section5 */
 .section5 h3 {
     text-align: center;
 }
 
-.section5 {
-    padding-right: 5%;
-    padding-left: 2%;
-    margin-left: 2%;
-}
-
 /* section6 */
 .contact {
     text-align: center;
-    /* padding-bottom: 20%; */
-    /* padding-top:20% ; */
 }
 
 /* section7 */
