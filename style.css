@@ -132,12 +132,46 @@ html {
 }
 
 /* contact */
+.contact{
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
 #contact{
     background-image: url(images/backgrounds/c_image.jpg);
     background-position: center;
     background-size: cover;
     height: 70vh;
     margin: 5%;
+}
+
+#email{
+    margin-left: 10%;
+    background: none;
+    border: 1px solid white;
+
+}
+
+#name{
+    background: none;
+    border: 1px solid white;
+}
+
+#message{
+    height: 200px;
+    width: 85%;
+    background: none;
+    border: 1px solid white;
+}
+
+#contact h1{
+    text-align: center;
+    color: white;
+}
+
+::placeholder{
+    color: white;
 }
 /* section7 */
 .footer {
