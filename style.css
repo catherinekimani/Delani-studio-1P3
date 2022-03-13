@@ -10,7 +10,7 @@ html {
 }
 /* section1 */
 .section1{
-    background-image: url("../images/backgrounds/h_img.jpg");
+    background-image: url(images/backgrounds/h_img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
@@ -37,7 +37,7 @@ html {
 
 /* section3 */
 .section3 {
-    background-image: url("../images/backgrounds/s_image.jpg");
+    background-image: url(images/backgrounds/s_image.jpg);
     height: 50vh;
     color: white;
     font-size: 15px;
